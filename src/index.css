@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.musicapp{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.menutitle{
+  color: rgb(198, 198, 198);
+}
+.playlisttitle{
+  color: rgb(198, 198, 198);
+}
+body{
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  position: relative;
+}
+.nav{
+  background-color: rgba(15, 15, 15, 0.677);
+}
+.sidemenu{
+  background-color: rgb(15, 15, 15);
+}
+.content{
+  background-color: rgb(15, 15, 15);
+}
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #000; /* Change the background color as per your preference */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Change the thumb color as per your preference */
+}
+
+/* Style the scrollbar on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Change the hover color as per your preference */
+}
+
+/* Hide the scrollbar when not hovering */
+::-webkit-scrollbar {
+  width: 6px; /* Adjust the width as per your preference */
+  background-color: #000; /* Change the background color as per your preference */
+}
+.musicfont{
+  font-family: 'Montserrat', sans-serif;
+}
+.musicartistfont{
+  font-family: 'Montserrat', sans-serif;
+}
